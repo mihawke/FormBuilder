@@ -32,6 +32,20 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Categorize addQuestion={addData} />
+  
+      <div style={{ color: 'white' }}>
+        {data.map((entry) => (
+          <div key={entry.id}>
+            <h3>Question: {entry.question}</h3>
+            <p>Categories: {entry.categories.join(', ')}</p>
+            <ul>
+              {entry.items.map((item, index) => (
+                <li key={index}>{item.name} - {item.category}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
       {console.log(data)}
     </div>
   );

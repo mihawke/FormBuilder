@@ -1,22 +1,22 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 800px;
-    background-color: #FFFFFF;   
-    padding: 50px; 
+    background-color: #FFFFFF;
+    padding: 50px;
     border-radius: 10px;
     row-gap: 20px;
 }
 
-.frame1{
+.frame1 {
     display: flex;
     flex-direction: column;
     width: 100%;
     row-gap: 10px;
 }
 
-.frame1 .input{
+.frame1 .input {
     background-color: transparent;
     border-radius: 3px;
     width: 100%;
@@ -29,13 +29,13 @@
 }
 
 /*  */
-.frame2{
+.frame2 {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
 
-.frame2 .input{
+.frame2 .input {
     background-color: transparent;
     border-radius: 3px;
     width: 150px;
@@ -46,7 +46,19 @@
     line-height: 150%;
 }
 
-.frame2 .button{
+.frame2 .text {
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid silver;
+    width: 80px;
+    padding: 5px 10px 5px 10px;
+    color: #2b2b2b;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+.frame2 .button {
     background-color: #0048D9;
     border-radius: 6px;
     padding: 4px 16px 4px 16px;
@@ -56,19 +68,35 @@
     font-weight: 400;
     line-height: 150%;
 }
-.frame2 .button:hover{
+
+.frame2 .trash {
+    border-radius: 6px;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    height: fit-content;
+    padding: 5px 8px 2px 8px;
+}
+
+
+
+.frame2 .trash:hover {
+    background-color: #e4e4e4;
+}
+
+.frame2 .button:hover {
     background-color: #002266;
 }
 
 /*  */
 
-.frame3{
+.frame3 {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
 
-.frame3 .input{
+.frame3 .input {
     background-color: transparent;
     border-radius: 3px;
     width: 150px;
@@ -79,7 +107,29 @@
     line-height: 150%;
 }
 
-.frame3 .button{
+.frame3 .select {
+    background-color: transparent;
+    border-radius: 3px;
+    width: 150px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+.frame3 .text {
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid silver;
+    width: 80px;
+    padding: 5px 10px 5px 10px;
+    color: #2b2b2b;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+.frame3 .button {
     background-color: #0048D9;
     border-radius: 6px;
     padding: 4px 16px 4px 16px;
@@ -89,10 +139,9 @@
     font-weight: 400;
     line-height: 150%;
 }
-.frame3 .button:hover{
+
+.frame3 .button:hover {
     background-color: #002266;
 }
 
-.frame4{
-    
-}
+.frame4 {}
